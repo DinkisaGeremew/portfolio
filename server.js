@@ -86,9 +86,9 @@ app.get('/api/messages', (req, res) => {
 });
 
 // ===== SERVE FRONTEND =====
-app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname, '..')));
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, '..', 'index.html'));
 });
 
 app.listen(PORT, () => {
