@@ -75,6 +75,25 @@ window.addEventListener('DOMContentLoaded', function () {
   }
   type();
 
+  // 3D TILT EFFECT
+  document.querySelectorAll('.tilt-card, .project-card, .service-card, .why-card, .skill-category').forEach(function (card) {
+    card.addEventListener('mousemove', function (e) {
+      var rect = card.getBoundingClientRect();
+      var x = e.clientX - rect.left;
+      var y = e.clientY - rect.top;
+      var cx = rect.width / 2;
+      var cy = rect.height / 2;
+      var rotX = ((y - cy) / cy) * -8;
+      var rotY = ((x - cx) / cx) * 8;
+      card.style.transform = 'perspective(800px) rotateX(' + rotX + 'deg) rotateY(' + rotY + 'deg) translateZ(10px)';
+      card.style.setProperty('--mx', (x / rect.width * 100) + '%');
+      card.style.setProperty('--my', (y / rect.height * 100) + '%');
+    });
+    card.addEventListener('mouseleave', function () {
+      card.style.transform = 'perspective(800px) rotateX(0) rotateY(0) translateZ(0)';
+    });
+  });
+
   // SCROLL ANIMATIONS
   var animObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
