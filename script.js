@@ -75,6 +75,20 @@ window.addEventListener('DOMContentLoaded', function () {
   }
   type();
 
+  // SCROLL ANIMATIONS
+  var animObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('anim-in');
+        animObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.about-card, .service-card, .why-card, .skill-category, .project-card, .section-header').forEach(function (el) {
+    el.classList.add('anim-hidden');
+    animObserver.observe(el);
+  });
+
   // SKILL BARS
   var barObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
