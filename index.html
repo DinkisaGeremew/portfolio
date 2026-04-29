@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dinkisa Geremew | Junior Software Developer</title>
-  <link rel="stylesheet" href="style.css?v=3"/>
+  <title>Dinkisa Geremew | Software Developer — Ethiopia</title>
+  <meta name="description" content="Dinkisa Geremew — Software Developer from Ethiopia. I build production-ready web apps, AI systems, and marketplaces. Available for hire."/>
+  <link rel="stylesheet" href="style.css?v=5"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
+  <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="#home" class="nav-logo">DG<span>.</span></a>
@@ -21,9 +23,14 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="nav-right">
+        <a href="https://www.linkedin.com/in/dinkisa-geremew-947b4a36a" target="_blank" class="nav-hire-btn">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </nav>
 
@@ -31,213 +38,239 @@
   <section class="hero" id="home">
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
-    <div class="hero-bg"></div>
     <div class="hero-content">
       <div class="hero-text">
-        <p class="hero-greeting">Hello, I'm</p>
-        <h1 class="hero-name">Dinkisa <span>Geremew</span></h1>
-        <p class="hero-title">Junior Software Developer</p>
+        <div class="hero-badge"><span class="badge-dot"></span> Available for Work</div>
+        <h1 class="hero-name">I Build Software<br/><span>That Solves Real Problems</span></h1>
+        <p class="hero-sub">Dinkisa Geremew — Software Developer from Ethiopia</p>
         <p class="hero-desc">
-          I build simple, responsive, and user-friendly software solutions. Available for full-time, part-time, and freelance work.
+          CS Graduate with GPA 3.78 from Madda Walabu University. I build production-ready web apps, AI systems, and full-stack platforms. 3 live projects. Ready to contribute from day one.
         </p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary" id="hire-btn"><i class="fas fa-briefcase"></i> Hire Me</a>
-          <a href="#projects" class="btn btn-outline" id="view-work-btn"><i class="fas fa-eye"></i> View Work</a>
+          <a href="#contact" class="btn btn-primary" id="hire-btn"><i class="fas fa-briefcase"></i> Hire Me Now</a>
+          <a href="#projects" class="btn btn-outline" id="view-work-btn"><i class="fas fa-rocket"></i> See My Work</a>
         </div>
         <div class="hero-stats">
+          <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Live Projects</span></div>
+          <div class="stat-divider"></div>
           <div class="stat"><span class="stat-num">3.78</span><span class="stat-label">GPA</span></div>
           <div class="stat-divider"></div>
           <div class="stat"><span class="stat-num">72%</span><span class="stat-label">Exit Exam</span></div>
           <div class="stat-divider"></div>
-          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+          <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Technologies</span></div>
         </div>
       </div>
       <div class="hero-image">
         <div class="avatar-ring">
-          <img src="mypicture.jpg" alt="Dinkisa Geremew" class="avatar-img"/>
+          <img src="mypicture.jpg" alt="Dinkisa Geremew — Software Developer" class="avatar-img"/>
         </div>
-        <div class="floating-badge badge-1"><i class="fas fa-code"></i> Available for Work</div>
-        <div class="floating-badge badge-2"><i class="fas fa-graduation-cap"></i> CS Graduate</div>
+        <div class="floating-badge badge-1"><i class="fas fa-code"></i> Full-Stack Dev</div>
+        <div class="floating-badge badge-2"><i class="fas fa-brain"></i> AI / ML</div>
+        <div class="floating-badge badge-3"><i class="fas fa-globe"></i> 3 Live Apps</div>
       </div>
     </div>
     <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
   </section>
 
   <!-- ABOUT -->
-  <section class="section" id="about">
+  <section class="section section-alt" id="about">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Who I Am</p>
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">About <span>Me</span></h2>
       </div>
-      <div class="about-grid">
-        <div class="about-card tilt-card glow-hover">
-          <h3>Education</h3>
-          <p>B.Sc. in Computer Science</p>
-          <p class="about-sub">Madda Walabu University</p>
-          <p class="about-sub">College of Computing</p>
+      <div class="about-layout">
+        <div class="about-left">
+          <p class="about-lead">I don't just write code — I build systems that work in the real world.</p>
+          <p class="about-text">I am a Computer Science graduate from Madda Walabu University (GPA 3.78, Exit Exam 72%) with hands-on experience building full-stack web applications, AI/ML systems, and production-ready platforms used by real users.</p>
+          <p class="about-text">My projects include a live Ethiopian e-commerce marketplace, a job platform serving East Africa, and an AI-powered medical detection system. I write clean, maintainable code and deliver on time.</p>
+          <div class="about-highlights">
+            <div class="highlight"><i class="fas fa-check-circle"></i> Production-ready code</div>
+            <div class="highlight"><i class="fas fa-check-circle"></i> Fast learner & self-starter</div>
+            <div class="highlight"><i class="fas fa-check-circle"></i> Strong problem-solving skills</div>
+            <div class="highlight"><i class="fas fa-check-circle"></i> Available immediately</div>
+          </div>
+          <div class="about-actions">
+            <a href="https://www.linkedin.com/in/dinkisa-geremew-947b4a36a" target="_blank" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+            <a href="https://github.com/DinkisaGeremew" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+          </div>
         </div>
-        <div class="about-card">
-          <div class="about-icon"><i class="fas fa-star"></i></div>
-          <h3>Academic Performance</h3>
-          <p>GPA: <strong>3.78 / 4.0</strong></p>
-          <p class="about-sub">Exit Exam: <strong>72%</strong></p>
-          <p class="about-sub">Graduated with Distinction</p>
+        <div class="about-right">
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-university"></i></div>
+            <h3>Education</h3>
+            <p>B.Sc. Computer Science</p>
+            <p class="about-sub">Madda Walabu University</p>
+            <p class="about-sub">College of Computing</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-star"></i></div>
+            <h3>Academic Result</h3>
+            <p>GPA: <strong>3.78 / 4.0</strong></p>
+            <p class="about-sub">Exit Exam: <strong>72%</strong></p>
+            <p class="about-sub">Graduated with Distinction</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h3>Location</h3>
+            <p>Holeta, Oromia</p>
+            <p class="about-sub">Ethiopia</p>
+            <p class="about-sub">Open to remote work</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Availability</h3>
+            <p>Full-time / Part-time</p>
+            <p class="about-sub">Freelance / Contract</p>
+            <p class="about-sub">Remote / On-site</p>
+          </div>
         </div>
-        <div class="about-card">
-          <div class="about-icon"><i class="fas fa-map-marker-alt"></i></div>
-          <h3>Location</h3>
-          <p>Holeta, Oromia, Ethiopia</p>
-          <p class="about-sub">Open to opportunities</p>
-          <p class="about-sub">across the country</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon"><i class="fas fa-briefcase"></i></div>
-          <h3>Looking For</h3>
-          <p>Full-time / Part-time</p>
-          <p class="about-sub">Software Development</p>
-          <p class="about-sub">IT &amp; Tech Roles</p>
-        </div>
-      </div>
-      <div class="about-bio">
-        <p>I am a Computer Science graduate from Madda Walabu University with strong foundations in software engineering, algorithms, data structures, databases, and networking. I can help you build practical, reliable software solutions. I am eager to apply my technical skills and problem solving ability to build practical software solutions.</p>
       </div>
     </div>
   </section>
 
   <!-- SERVICES -->
-  <section class="section section-alt" id="services">
+  <section class="section" id="services">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">What I Offer</p>
-        <h2 class="section-title">Services</h2>
+        <h2 class="section-title">My <span>Services</span></h2>
       </div>
       <div class="services-grid">
         <div class="service-card">
           <div class="service-icon"><i class="fas fa-globe"></i></div>
           <h3>Web Development</h3>
-          <p>Responsive websites and web applications built with modern technologies.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
-          <h3>Mobile App Development</h3>
-          <p>Cross-platform mobile applications for Android and iOS.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-database"></i></div>
-          <h3>Database Design</h3>
-          <p>Efficient database architecture and management for your applications.</p>
+          <p>Full-stack responsive web applications built with Node.js, React, and modern databases.</p>
         </div>
         <div class="service-card">
           <div class="service-icon"><i class="fas fa-brain"></i></div>
           <h3>AI / ML Solutions</h3>
-          <p>Machine learning models and computer vision systems for real-world problems.</p>
+          <p>Machine learning models, computer vision systems, and data analysis tools using Python and TensorFlow.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-store"></i></div>
+          <h3>E-Commerce Platforms</h3>
+          <p>Custom online marketplaces with payment integration, user management, and order tracking.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-database"></i></div>
+          <h3>Database Design</h3>
+          <p>Efficient database architecture using MySQL, MongoDB, and PostgreSQL for scalable applications.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Mobile App Development</h3>
+          <p>Cross-platform mobile applications for Android and iOS with clean UI and smooth performance.</p>
         </div>
         <div class="service-card">
           <div class="service-icon"><i class="fas fa-wrench"></i></div>
-          <h3>Website Fixes &amp; Edits</h3>
-          <p>Bug fixes, updates, and improvements to your existing website or app.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-desktop"></i></div>
-          <h3>Desktop Applications</h3>
-          <p>Custom desktop software solutions for businesses and organizations.</p>
+          <h3>Bug Fixes &amp; Upgrades</h3>
+          <p>Fast debugging, performance improvements, and feature additions to your existing software.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- WHY CHOOSE ME -->
-  <section class="section" id="why">
+  <section class="section section-alt" id="why">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Why Work With Me</p>
-        <h2 class="section-title">Why Choose Me</h2>
+        <h2 class="section-title">Why <span>Choose Me</span></h2>
       </div>
       <div class="why-grid">
         <div class="why-card">
+          <div class="why-icon"><i class="fas fa-rocket"></i></div>
+          <h3>Production-Ready</h3>
+          <p>I build real apps used by real users — not just demo projects. 3 live hosted applications.</p>
+        </div>
+        <div class="why-card">
           <div class="why-icon"><i class="fas fa-bolt"></i></div>
-          <h3>Fast &amp; Accurate</h3>
-          <p>I deliver quality work on time without cutting corners.</p>
+          <h3>Fast Delivery</h3>
+          <p>I deliver quality work on time. No excuses, no delays. Deadlines are commitments.</p>
         </div>
         <div class="why-card">
           <div class="why-icon"><i class="fas fa-comments"></i></div>
-          <h3>Good Communication</h3>
-          <p>I keep you updated throughout the project and respond quickly.</p>
+          <h3>Clear Communication</h3>
+          <p>I keep you updated at every step. You always know what's happening with your project.</p>
         </div>
         <div class="why-card">
           <div class="why-icon"><i class="fas fa-trophy"></i></div>
           <h3>100% Commitment</h3>
-          <p>I give full effort to every project, big or small.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-icon"><i class="fas fa-clock"></i></div>
-          <h3>On-Time Delivery</h3>
-          <p>I respect deadlines and always deliver on schedule.</p>
+          <p>Every project gets my full attention and effort. I don't cut corners.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section class="section section-alt" id="skills">
+  <section class="section" id="skills">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">What I Know</p>
-        <h2 class="section-title">My Skills</h2>
+        <p class="section-tag">Technical Skills</p>
+        <h2 class="section-title">Technologies <span>I Use</span></h2>
       </div>
       <div class="skills-grid">
         <div class="skill-category">
-          <h3><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+          <h3><i class="fas fa-laptop-code"></i> Languages</h3>
           <div class="skill-tags">
-            <span class="tag">Python</span><span class="tag">Java</span>
-            <span class="tag">C / C++</span><span class="tag">JavaScript</span><span class="tag">PHP</span>
+            <span class="tag">Python</span><span class="tag">JavaScript</span>
+            <span class="tag">Java</span><span class="tag">C / C++</span><span class="tag">PHP</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-globe"></i> Web Development</h3>
+          <h3><i class="fas fa-globe"></i> Web & Frameworks</h3>
           <div class="skill-tags">
-            <span class="tag">HTML5</span><span class="tag">CSS3</span>
-            <span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Node.js</span>
+            <span class="tag">React</span><span class="tag">Node.js</span>
+            <span class="tag">Express</span><span class="tag">HTML5</span><span class="tag">CSS3</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-database"></i> Database</h3>
+          <h3><i class="fas fa-database"></i> Databases</h3>
           <div class="skill-tags">
-            <span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
-            <span class="tag">SQLite</span><span class="tag">MongoDB</span>
+            <span class="tag">MongoDB</span><span class="tag">MySQL</span>
+            <span class="tag">PostgreSQL</span><span class="tag">SQLite</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-tools"></i> Tools &amp; Others</h3>
+          <h3><i class="fas fa-brain"></i> AI / ML</h3>
           <div class="skill-tags">
-            <span class="tag">Git &amp; GitHub</span><span class="tag">Linux</span>
-            <span class="tag">VS Code</span><span class="tag">Networking</span>
+            <span class="tag">TensorFlow</span><span class="tag">Scikit-learn</span>
+            <span class="tag">OpenCV</span><span class="tag">Flask</span><span class="tag">Pandas</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Git & GitHub</span><span class="tag">Linux</span>
+            <span class="tag">VS Code</span><span class="tag">Render</span><span class="tag">REST API</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-cogs"></i> Concepts</h3>
+          <div class="skill-tags">
             <span class="tag">OOP</span><span class="tag">Data Structures</span>
+            <span class="tag">Algorithms</span><span class="tag">Networking</span><span class="tag">Agile</span>
           </div>
         </div>
       </div>
       <div class="proficiency-bars">
         <h3 class="bars-title">Proficiency Levels</h3>
         <div class="bar-item">
-          <div class="bar-label"><span>Python</span><span>85%</span></div>
+          <div class="bar-label"><span>Python & AI/ML</span><span>85%</span></div>
           <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
         </div>
         <div class="bar-item">
-          <div class="bar-label"><span>Web Development</span><span>80%</span></div>
-          <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+          <div class="bar-label"><span>Web Development (Full-Stack)</span><span>82%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="82"></div></div>
         </div>
         <div class="bar-item">
-          <div class="bar-label"><span>Java</span><span>75%</span></div>
-          <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
-        </div>
-        <div class="bar-item">
-          <div class="bar-label"><span>Mobile App Development</span><span>89%</span></div>
-          <div class="bar-track"><div class="bar-fill" data-width="89"></div></div>
-        </div>
-        <div class="bar-item">
-          <div class="bar-label"><span>Database Management</span><span>78%</span></div>
+          <div class="bar-label"><span>Mobile App Development</span><span>78%</span></div>
           <div class="bar-track"><div class="bar-fill" data-width="78"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label"><span>Database Management</span><span>80%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
         </div>
         <div class="bar-item">
           <div class="bar-label"><span>Problem Solving</span><span>88%</span></div>
@@ -248,66 +281,88 @@
   </section>
 
   <!-- PROJECTS -->
-  <section class="section" id="projects">
+  <section class="section section-alt" id="projects">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">What I've Built</p>
-        <h2 class="section-title">Projects</h2>
+        <p class="section-tag">Featured Projects</p>
+        <h2 class="section-title">Production-Ready <span>Work</span></h2>
+        <p class="section-desc">Real applications — live, hosted, and used by real users.</p>
       </div>
       <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
-          <div class="project-content">
-            <span class="project-tag">AI / ML</span>
-            <h3>Breast Cancer Detection System</h3>
-            <p>Developed a machine learning system that detects breast cancer from medical data with high accuracy, enabling early diagnosis and improving treatment outcomes.</p>
-            <div class="project-tech"><span>Python</span><span>Machine Learning</span><span>Flask</span></div>
-            <div class="project-links">
-              <a href="https://github.com/DinkisaGeremew" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-              <a href="https://breastcancerdetectionsystem.onrender.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-store"></i></div>
+            <span class="project-tag">E-Commerce · Live</span>
+          </div>
+          <h3>DG Market — Ethiopia Online Marketplace</h3>
+          <p class="project-problem"><strong>Problem solved:</strong> Ethiopian buyers and sellers had no trusted local platform with secure payments.</p>
+          <p class="project-desc">Built a full-featured marketplace from scratch supporting Telebirr &amp; CBE Birr payments, secure escrow system, verified sellers, nationwide delivery, and Oromo/English language support. Deployed and live.</p>
+          <div class="project-impact">
+            <span><i class="fas fa-check"></i> Secure Escrow Payments</span>
+            <span><i class="fas fa-check"></i> Telebirr &amp; CBE Birr</span>
+            <span><i class="fas fa-check"></i> Nationwide Delivery</span>
+          </div>
+          <div class="project-tech"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Telebirr API</span></div>
+          <div class="project-links">
+            <a href="https://dgmarket.onrender.com" target="_blank" class="project-link primary-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/DinkisaGeremew" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
           </div>
         </div>
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-store"></i></div>
-          <div class="project-content">
-            <span class="project-tag">E-Commerce</span>
-            <h3>DG Market — Ethiopia Online Marketplace</h3>
-            <p>A full-featured Ethiopian online marketplace where buyers and sellers trade electronics, clothing, cars, food and more. Features secure escrow payments, Telebirr &amp; CBE Birr integration, nationwide delivery, and verified sellers.</p>
-            <div class="project-tech"><span>Node.js</span><span>Express</span><span>Telebirr</span><span>CBE Birr</span><span>Escrow</span></div>
-            <div class="project-links">
-              <a href="https://dgmarket.onrender.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-              <a href="https://github.com/DinkisaGeremew" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-            </div>
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-briefcase"></i></div>
+            <span class="project-tag">Job Platform · Live</span>
+          </div>
+          <h3>DG Jobs — East African Job Network</h3>
+          <p class="project-problem"><strong>Problem solved:</strong> Job seekers in East Africa lacked a dedicated regional platform connecting them with verified employers.</p>
+          <p class="project-desc">Built a modern job platform serving Ethiopia, Kenya, Rwanda, and Uganda. Features smart search by category/location, verified company listings, CV writing service, Telegram job alerts, and recruitment tools for employers.</p>
+          <div class="project-impact">
+            <span><i class="fas fa-check"></i> 4 Countries Covered</span>
+            <span><i class="fas fa-check"></i> Smart Job Search</span>
+            <span><i class="fas fa-check"></i> Telegram Alerts</span>
+          </div>
+          <div class="project-tech"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span></div>
+          <div class="project-links">
+            <a href="https://dgjobs-client.onrender.com" target="_blank" class="project-link primary-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/DinkisaGeremew" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
           </div>
         </div>
+
         <div class="project-card">
-          <div class="project-icon"><i class="fas fa-briefcase"></i></div>
-          <div class="project-content">
-            <span class="project-tag">Job Platform</span>
-            <h3>DG Jobs — East African Job Network</h3>
-            <p>A modern job platform connecting job seekers with top companies across Ethiopia, Kenya, Rwanda and Uganda. Features smart job search, company listings, CV writing, Telegram job alerts, and recruitment services.</p>
-            <div class="project-tech"><span>Node.js</span><span>React</span><span>MongoDB</span><span>Express</span></div>
-            <div class="project-links">
-              <a href="https://dgjobs-client.onrender.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-              <a href="https://github.com/DinkisaGeremew" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-            </div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+            <span class="project-tag">AI / ML · Live</span>
+          </div>
+          <h3>Breast Cancer Detection System</h3>
+          <p class="project-problem"><strong>Problem solved:</strong> Early breast cancer detection is critical but access to diagnostic tools is limited in Ethiopia.</p>
+          <p class="project-desc">Developed a CNN-based machine learning system using Flask and Python that analyzes medical data to detect breast cancer with high accuracy. Built a full-stack web interface for real-time predictions.</p>
+          <div class="project-impact">
+            <span><i class="fas fa-check"></i> High Accuracy ML Model</span>
+            <span><i class="fas fa-check"></i> Real-time Predictions</span>
+          </div>
+          <div class="project-tech"><span>Python</span><span>TensorFlow</span><span>Flask</span><span>Scikit-learn</span></div>
+          <div class="project-links">
+            <a href="https://breastcancerdetectionsystem.onrender.com" target="_blank" class="project-link primary-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/DinkisaGeremew" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="section section-alt" id="contact">
+  <section class="section" id="contact">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Let's Work Together</p>
-        <h2 class="section-title">Contact Me</h2>
+        <h2 class="section-title">Ready to <span>Hire Me?</span></h2>
+        <p class="section-desc">I am available right now. Send me a message and I will respond within 24 hours.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-info">
-          <p class="contact-intro">I am available for work right now. Whether you have a job opening, a project, or just want to connect — send me a message and I will get back to you fast.</p>
           <div class="contact-items">
             <div class="contact-item">
               <div class="contact-icon"><i class="fas fa-envelope"></i></div>
@@ -315,18 +370,22 @@
             </div>
             <div class="contact-item">
               <div class="contact-icon"><i class="fas fa-phone"></i></div>
-              <div><p class="contact-label">Phone</p><a href="tel:+251927333140">+251 927333140</a></div>
+              <div><p class="contact-label">Phone / WhatsApp</p><a href="tel:+251927333140">+251 927 333 140</a></div>
             </div>
             <div class="contact-item">
               <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
               <div><p class="contact-label">Location</p><span>Holeta, Oromia, Ethiopia</span></div>
             </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-clock"></i></div>
+              <div><p class="contact-label">Response Time</p><span>Within 24 hours</span></div>
+            </div>
           </div>
           <div class="social-links">
             <a href="https://www.linkedin.com/in/dinkisa-geremew-947b4a36a" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/dink.isa19" target="_blank" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://t.me/dinkisa_21" target="_blank" class="social-btn" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
             <a href="https://github.com/DinkisaGeremew" target="_blank" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/dinkisa_21" target="_blank" class="social-btn" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/dink.isa19" target="_blank" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
         <form class="contact-form" id="contact-form">
@@ -340,7 +399,7 @@
           </div>
           <div class="form-group">
             <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Job Opportunity" value="Job Opportunity" required/>
+            <input type="text" id="subject" name="subject" value="Job Opportunity" required/>
           </div>
           <div class="form-group">
             <label for="message">Message</label>
@@ -355,11 +414,12 @@
     </div>
   </section>
 
+  <!-- HIRE MODAL -->
   <div id="hire-modal" class="modal-overlay">
     <div class="modal-box">
       <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
       <h2 class="modal-title"><i class="fas fa-briefcase"></i> Send a Job Offer</h2>
-      <p class="modal-sub">Fill in the form and I will get back to you as soon as possible.</p>
+      <p class="modal-sub">Fill in the form and I will get back to you within 24 hours.</p>
       <form id="hire-form">
         <div class="form-group">
           <label for="h-name">Your Name</label>
@@ -375,7 +435,7 @@
         </div>
         <div class="form-group">
           <label for="h-message">Job Description</label>
-          <textarea id="h-message" name="h-message" rows="5" placeholder="Describe the role and requirements..." required></textarea>
+          <textarea id="h-message" name="h-message" rows="5" placeholder="Describe the role, requirements, and salary range..." required></textarea>
         </div>
         <button type="submit" class="btn btn-primary btn-full">
           <i class="fas fa-paper-plane"></i> Send Message
@@ -385,13 +445,28 @@
     </div>
   </div>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p>Designed &amp; Built by <span>Dinkisa Geremew</span> &copy; 2025</p>
-      <p class="footer-sub">Junior Software Developer | Available for Work</p>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">DG<span>.</span></span>
+          <p>Software Developer — Ethiopia</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="https://github.com/DinkisaGeremew" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <span>Dinkisa Geremew</span>. Built with passion in Ethiopia 🇪🇹</p>
+        <p class="footer-sub">Available for full-time, part-time &amp; freelance work</p>
+      </div>
     </div>
   </footer>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
