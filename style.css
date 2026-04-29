@@ -82,6 +82,14 @@ img { max-width: 100%; }
   background: radial-gradient(ellipse at 30% 60%, rgba(0,212,255,0.12) 0%, transparent 55%),
               radial-gradient(ellipse at 80% 20%, rgba(0,212,255,0.12) 0%, transparent 50%);
 }
+/* Grid pattern */
+.hero::after {
+  content: ''; position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
 .hero-bg { position: absolute; inset: 0; }
 .hero-content {
   max-width: 1200px; margin: 0 auto; padding: 6rem 2rem 4rem;
